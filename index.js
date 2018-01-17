@@ -19,7 +19,7 @@ function BoardMember (name, homeState, training) {
 
 }
 
-BoardMember.Prototype.veto = function () {
+BoardMember.prototype.veto = function () {
   return 'No, I must disagree'
 }
 

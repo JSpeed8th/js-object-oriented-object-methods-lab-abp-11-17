@@ -4,9 +4,6 @@ function BoardMember (name, homeState, training) {
   this.name = name;
   this.homeState = homeState;
   this.training = training;
-  this.veto = function () {
-    return 'No, I must disagree'
-  }
   this.approve = function () {
     return 'You can do that!'
   }
@@ -20,6 +17,10 @@ function BoardMember (name, homeState, training) {
     return `Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}.`
   }
 
+}
+
+BoardMember.Prototype.veto = function () {
+  return 'No, I must disagree'
 }
 
 /*+ `veto` — returns `No, I must disagree`

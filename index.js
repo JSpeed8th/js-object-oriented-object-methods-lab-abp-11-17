@@ -26,13 +26,3 @@ BoardMember.prototype.releasePressStatement = function () {
 BoardMember.prototype.sayHi = function () {
   return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
 }
-/*+ `veto` — returns `No, I must disagree`
-
-+ `approve` — returns `You can do that!`
-
-+ `doCharity` — returns `I like to help people.`
-
-+ `releasePressStatement` — returns `You will see great things from Scuber.`
-
-+ `sayHi` — returns `"Hi, my name is <name>. I am from <homestate>, and I was trained in <training>.`
-*/
